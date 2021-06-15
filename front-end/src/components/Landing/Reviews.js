@@ -4,7 +4,7 @@ import { Row, Col } from "antd";
 
 function Reviews() {
   return (
-    <section className="bg-gray-100 pb-20">
+    <section className="pb-20">
       <div className="container mx-auto">
         <div className="text-3xl pt-20 pb-10 text-center">Atsiliepimai</div>
         <Row gutter={80}>

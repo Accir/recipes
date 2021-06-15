@@ -1,12 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
-
 html {
   height: unset !important;
 }
 
 body {
   margin: 0;
-  font-family: "Lato", sans-serif !important;
+  font-family: "Acherus Grotesque", sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -43,8 +41,13 @@ code {
   min-height: 280px;
 }
 
-.ant-btn:hover,
+.carousel-button .ant-btn:hover,
 .ant-btn:focus {
   color: rgb(235, 235, 235) !important;
   border-color: rgb(235, 235, 235) !important;
+}
+
+.remove-link-decoration {
+  color: unset;
+  text-decoration: none;
 }

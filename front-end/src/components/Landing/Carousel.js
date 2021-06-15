@@ -59,7 +59,7 @@ function Carousel() {
             <div className="text-4xl text-white">
               Geriausi receptai Jūsų vakarui
             </div>
-            <div className="pt-5">
+            <div className="pt-5 carousel-button">
               <Button ghost size={"large"}>
                 Peržiūrėti receptus
               </Button>
