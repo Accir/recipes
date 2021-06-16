@@ -5,6 +5,7 @@ import {
   getHomePath,
   getLoginPath,
   getRegisterPath,
+  getRecipesPath,
 } from "../../services/navigation/paths";
 
 function Header() {
@@ -19,7 +20,7 @@ function Header() {
             <Link className="remove-link-decoration" to="#">
               <div className="flex items-center text-base">Apie</div>
             </Link>
-            <Link className="remove-link-decoration" to="#">
+            <Link className="remove-link-decoration" to={getRecipesPath()}>
               <div className="flex items-center text-base">Receptai</div>
             </Link>
             <Link className="remove-link-decoration" to={getLoginPath()}>

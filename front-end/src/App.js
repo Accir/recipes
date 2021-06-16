@@ -7,9 +7,11 @@ import {
   getHomePath,
   getLoginPath,
   getRegisterPath,
+  getRecipesPath,
 } from "./services/navigation/paths";
 import Login from "./components/Authentication/Login";
 import Register from "./components/Authentication/Register";
+import Recipes from "./components/Recipes/Recipes";
 
 function App() {
   return (
@@ -26,6 +28,9 @@ function App() {
             </Route>
             <Route path={getRegisterPath()}>
               <Register />
+            </Route>
+            <Route path={getRecipesPath()}>
+              <Recipes />
             </Route>
           </Switch>
         </div>

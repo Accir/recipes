@@ -8,7 +8,7 @@ function Login() {
   };
 
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto pb-20">
       <Card className="max-w-2xl mx-auto mt-20">
         <div className="text-2xl text-center pb-10">
           Prisijungti prie receptų sistemos
